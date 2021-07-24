@@ -15,6 +15,7 @@ node staging_app.js
 
 For easy use I have attached the .env file.Please config AWS and DB related details in this file.
 Here PostgreSql is used .Queries which are used listed below
+# 1
 CREATE TABLE registered_users
 (
  user_id serial primary key NOT NULL,
@@ -23,6 +24,7 @@ CREATE TABLE registered_users
  email character varying(255),
  delete_status integer
 )
+# 2
 CREATE TABLE user_post
 (
  post_id serial primary key NOT NULL,
